@@ -1,0 +1,77 @@
+html {
+    background: lightgrey;
+    font-family: Arial;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background: white url(img/opel.jpg) no-repeat;
+}
+
+h1 {
+   font-size: 50px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-left: 70px;
+    padding-bottom: 7px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 5px solid #dbdbdb;
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    padding: 10px 10px 10px;
+
+}
+
+.title {
+    color: grey;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.navigation-wrapper {
+    height: 470px;
+}
+.navigation {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.title-wrapper {
+    background-color: rgba(255, 255, 255, .4);
+    height: 80px;
+}
+.footer-wrapper {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.table-row {
+    background-color: #dcdcdc;
+}
