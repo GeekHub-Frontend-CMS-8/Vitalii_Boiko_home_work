@@ -1,5 +1,5 @@
 html {
-    background: lightgrey;
+    background: #d3d3d3;
     font-family: Arial;
 }
 
@@ -48,7 +48,7 @@ td {
 }
 
 .title {
-    color: grey;
+    color: #808080;
     font-size: 16px;
     margin-top: 2px;
     margin-bottom: 10px;
