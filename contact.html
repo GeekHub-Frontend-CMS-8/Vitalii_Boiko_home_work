@@ -6,11 +6,19 @@
     <title>Opel</title>
 </head>
 <body>
-<div class="navigation-wrapper">
-    <nav class="navigation">
-        <a href="index.html">Home</a> |
-        <a href="prices.html">Prices</a> |
-        <a href="contact.html">Contact us</a>
+<div class="menu-wrapper">
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="prices.html">Prices</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+        </ul>
     </nav>
 </div>
 <div class="title-wrapper">
@@ -18,10 +26,20 @@
         Opel Crossland X
     </h1>
 </div>
-<article>
+<section>
     <h2>Contact us</h2>
-
-</article>
+        <div class="contact-us">
+            <form action="" method="get" autocomplete="on" name="contact-us">
+                <label>Name <input class="form-data" type="text" name="name" placeholder="Your Name" required></label>
+                <br>
+                <label>Email <input class="form-data" type="email" name="email" placeholder="Your email" required></label>
+                <br>
+                <textarea class="message" placeholder="Message" name="message"></textarea>
+                <br>
+                <input class="send-message" type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+</section>
 <footer class="footer-wrapper">
     <span>&copy; This website is made as my first task.</span>
 </footer>

@@ -6,15 +6,12 @@ html {
 body {
     width: 900px;
     margin: 0 auto;
-    background: white url(img/opel.jpg) no-repeat;
+    background: white url(../img/opel.jpg) no-repeat;
 }
 
 h1 {
    font-size: 50px;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-left: 70px;
-    padding-bottom: 30px;
+    padding: 5px 0px 30px 70px;
 }
 
 h2 {
@@ -24,10 +21,7 @@ h2 {
 p {
     font-size: 14px;
     text-align: justify;
-    padding-top: 0;
-    padding-right: 30px;
-    padding-left: 70px;
-    padding-bottom: 7px;
+    padding: 0 30px 7px 70px;
 }
 
 table {
@@ -47,19 +41,36 @@ td {
 
 }
 
+nav {
+    float: right;
+    margin: 35px 35px;
+}
+
 .title {
     color: #808080;
     font-size: 16px;
     margin-top: 2px;
     margin-bottom: 10px;
 }
-.navigation-wrapper {
+.menu-wrapper {
     height: 470px;
 }
-.navigation {
-    padding-top: 10px;
-    padding-right: 10px;
-    text-align: right;
+.menu {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .title-wrapper {
@@ -74,4 +85,36 @@ td {
 
 .table-row {
     background-color: #dcdcdc;
+}
+
+form {
+    margin: 35px 0px 50px 70px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+.contact-us {
+    width: 800px;
+    font-size: 14px;
+}
+
+.form-data {
+    width: 300px;
+    border: solid grey 1px;
+}
+
+.message {
+    width: 80%;
+    height: 200px;
+    resize: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.send-message {
+    float: right;
+    margin-right: 90px;
 }
